@@ -11,9 +11,8 @@
 using namespace std;
 
 int main() {
-//	string info ="sin(sin(1),sin(2))";
-//	string info = "-.7";
-string info = "sin(60)";
+	
+	string info = "sin(30)";
 	string result = firstdeal(info);
 	cout << result << endl;
 
@@ -33,7 +32,7 @@ string info = "sin(60)";
 	SyntaxParse Syntaxtest(Express_p);
 	Syntaxtest.Parse();
 
-
+	cout << "The result is " << endl;
 	cout << info << endl;
 
 	return 0;
